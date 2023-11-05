@@ -14,8 +14,14 @@ const Logo = () => {
         className="w-16 h-16 text-black bg-[#64b7b9] flex items-center
       justify-center rounded-full text-2xl font-bold"
         whileHover={{
-          backgroundColor: ["#64b7b9", "#417182", "#34e0e2"],
-          transition: { duration: 2, repeat: Infinity },
+          backgroundColor: [
+            "#64b7b9",
+            "#433a60",
+            "#fadb7e",
+            "#433a60",
+            "#64b7b9",
+          ],
+          transition: { duration: 4, repeat: Infinity },
         }}
       >
         JC

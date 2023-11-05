@@ -14,7 +14,7 @@ const CustomLink = ({ href, title, className = "" }) => {
     <Link href={href} className={`${className} relative group`}>
       {title}
       <span
-        className={`h-[1px] inline-block bg-white 
+        className={`h-[1px] inline-block bg-[#64b7b9]
         absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300
         ${pathname === href ? "w-full" : "w-0"}`}
       >
@@ -26,7 +26,7 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const NavBar = () => {
   return (
-    <header className="w-full py-8 font-medium flex items-center justify-between">
+    <header className="w-full py-8 px-20 font-medium flex items-center justify-between">
       {/* Pages Nav */}
       <nav className="flex">
         <CustomLink href="/" title="Home" className="mr-4" />
