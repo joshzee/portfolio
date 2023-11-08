@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const AnimatedHeader = (className = "") => {
-  const line1 = "Turning Visons Into";
-  const line2 = "The Digital Future";
+  const line1 = "Turning Your Visons";
+  const line2 = "Into Digital Futures";
 
   const sentence = {
     hidden: { opacity: 1 },
