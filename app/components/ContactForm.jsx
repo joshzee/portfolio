@@ -70,7 +70,7 @@ const ContactForm = () => {
         ({ status }) => {
           if (status === 200) {
             setFormSubmitted({
-              title: "Your message is safe with me!",
+              title: "Your message is the way",
               paragraph: "I'll be in touch ASAP",
             });
           } else {
