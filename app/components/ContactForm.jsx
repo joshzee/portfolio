@@ -2,6 +2,7 @@
 
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
+import { unstable_noStore as noStore } from "next/cache";
 
 import { BsArrowRight } from "react-icons/bs";
 import { motion } from "framer-motion";
@@ -10,6 +11,7 @@ import Alert from "./Alert";
 import { fadeIn } from "@/variants";
 
 const ContactForm = () => {
+  noStore();
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
