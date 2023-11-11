@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { BsArrowRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 
 import NavBar from "../components/NavBar";

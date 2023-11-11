@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import { Icon } from "@iconify-icon/react";
 import Layout from "./Layout";
@@ -25,17 +26,18 @@ const HeroSection = () => {
           </div>
 
           {/* Information */}
-          <div className="w-1/2 flex flex-col items-left self-center">
+          <div className="flex flex-col self-center w-1/2 items-left">
             <AnimatedHeader className="text-left" />
 
             <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mt-4 mb-5">
               Lorem ipsum dolor sit amet, consectetur adip eist elementum et
               dolor et. Lorem ipsum dolor sit amet, consectetur adip eist
             </p>
-            <div>
-              <button
+            <div className="mt-5">
+              <Link
+                href="/contact"
                 className="
-                btn mr-4 rounded-md w-full sm:w-fit border-solid border-2 border-[#fadb7e] py-2 px-4 
+                btn mr-4 rounded-md w-full sm:w-fit border-solid border-2 border-[#fadb7e] py-4 px-4 
                 text-[#fadb7e] bg-[#433a60] hover:bg-[#64b7b9] hover:text-[#433a60] 
                 hover:border-[#fadb7e]"
               >
@@ -45,15 +47,16 @@ const HeroSection = () => {
                   height="24"
                   icon="icon-park-outline:send-email"
                 />
-              </button>
-              <button
+              </Link>
+              <Link
+                href="/projects"
                 className="
-              btn mt-3 rounded-md w-full sm:w-fit border-solid border-2 border-[#64b7b9] py-2 px-4 
+              btn rounded-md w-full sm:w-fit border-solid border-2 border-[#64b7b9] py-4 px-4 
               text-[#64b7b9] bg-[#0e1014] hover:bg-transparent hover:text-[#fadb7e] 
               hover:border-[#433a60]"
               >
                 View Projects
-              </button>
+              </Link>
             </div>
           </div>
         </div>
