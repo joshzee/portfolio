@@ -7,6 +7,8 @@ import Link from "next/link";
 import { Icon } from "@iconify-icon/react";
 import Layout from "./Layout";
 import AnimatedHeader from "./AnimatedHeader";
+import Skills from "./Skills";
+import ParticlesContainer from "./ParticlesContainer";
 
 const HeroSection = () => {
   return (
@@ -57,9 +59,14 @@ const HeroSection = () => {
               >
                 View Projects
               </Link>
+              {/* Particles */}
+              <ParticlesContainer />
             </div>
           </div>
         </div>
+
+        {/* # Skills section */}
+        {/* <Skills /> */}
       </Layout>
     </section>
   );
