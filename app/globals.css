@@ -31,9 +31,7 @@ body {
 }
 
 
-__.className_2dafea {
- background-color: #433a60!important;
-}
+
 .circle-text {
   animation: spin 2s linear infinte !important;
 
@@ -78,6 +76,8 @@ __.className_2dafea {
   to {
     transform: rotate(360deg);
   }
+
+  
 }
 
 @layer base {
@@ -107,4 +107,10 @@ __.className_2dafea {
   .textarea {
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
+}
+
+
+.__className_c85093 {
+  background: linear-gradient(rgb(131 130 130)) rgb(var(--background-start-rgb));
+  overflow-y:visible;
 }
