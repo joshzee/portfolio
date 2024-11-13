@@ -19,11 +19,12 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      /* to bottom,
-      transparent, */
+      to bottom,
+      transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    /* overflow-y: hidden; */
 }
 
 .header-text span:nth-child(n + 25) {
@@ -82,7 +83,7 @@ body {
 
 @layer base {
   body {
-    @apply overflow-hidden leading-relaxed;
+    @apply overflow-scroll overflow-y-scroll overflow-x-hidden leading-relaxed;
   }
   .page {
     @apply w-full h-screen overflow-hidden;
@@ -110,7 +111,13 @@ body {
 }
 
 
-.__className_8c5930 {
+section {
   background: linear-gradient(rgb(87, 86, 86)) (rgb(131 130 130));
-  overflow-y:visible;
+  /* overflow-y:scroll!important; */
 }
+
+/* body .__className_c85093{
+  overflow: visible!important;
+  overflow-y: visible!important;
+
+} */
