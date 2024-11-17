@@ -21,6 +21,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      span: {
+        bsp: "underline #64b7b9"
+      },
       colors: {
         pu: "#433a60",
         cy: "#64b7b9",
