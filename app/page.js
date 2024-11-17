@@ -22,7 +22,7 @@ const Home = () => {
 
         <h1>I&apos;ll be back</h1>
         <h3>No worries, the site just needs some love.<br/>
-        in the meantime you can reach me at <span className="bsp">mailto:hi@joshcodes.me</span>
+        in the meantime you can reach me at hi@joshcodes.me
         </h3>
       </a>
       </div>
