@@ -17,7 +17,7 @@ const Home = () => {
       <div className="pl-4 pr-4">
       <div className="h-screen flex justify-center items-center text-center">
 
-      <a className="z-2"> 
+      <div className="z-50"> 
       <div className="absolute left-[50%] top-5 translate-x-[-50%] cursor-pointer">
         <Logo />
       </div>
@@ -25,9 +25,9 @@ const Home = () => {
 
         <h1>I&apos;ll be back</h1>
         <h3>No worries, the site just needs some love.<br/>
-        in the meantime you can reach me at hi@joshcodes.me
+        in the meantime you can reach me at <a className="underline decoration-[#64b7b9] hover:text-[#64b7b9]" href='mailto:hi@joshcodes.me'>hi@joshcodes.me</a>
         </h3>
-      </a>
+      </div>
       <ParticlesContainer />
       </div>
       </div>
