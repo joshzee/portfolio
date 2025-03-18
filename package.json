@@ -11,7 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@iconify-icon/react": "^1.0.8",
-    "@react-three/drei": "^9.88.13",
+    "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.15.10",
     "emailjs": "^4.0.3",
     "formik": "^2.4.5",
