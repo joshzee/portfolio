@@ -26,8 +26,8 @@ const Home = () => {
         <h1>Hi, I&apos;ll be back soon 🙂</h1>
         <h3>The site just needs some love<br/>
         In the meantime you can reach me at <a className="underline decoration-[#64b7b9] hover:text-[#64b7b9]" href='mailto:hi@joshcodes.me'>hi@joshcodes.me</a>
-        <br/><br/>I&apos;m also studying all things DevOps through <a target="_blank" className="underline decoration-[#64b7b9] hover:text-[#64b7b9]" href='https://www.techworld-with-nana.com/devops-bootcamp#devops-schedule'>TWN</a>
-        <br/> I&apos;ll start journaling my progress soon! 🚀
+        <br/><br/>I&apos;m also studying all things DevOps; Including Network, Cloud and Bare Metal Infrastructure, CI/CD, CDNs, Security Best Practices, Network Troubleshooting and more.
+        <br/> I&apos;ll start journaling my progress when time allows! 🚀
         </h3>
       </div>
       <ParticlesContainer />
